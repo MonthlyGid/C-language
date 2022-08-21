@@ -50,10 +50,14 @@
               doc/*.txt     #会忽略 doc/notes.txt 但不包括doc/server/arcj.txt
               ```
 
-+ 设置git账户
++ 设置和查看git账户
   ```
   git config –global user.name ""
   git config –global user.email ""
+
+  git config -1
+  git config --system --list
+  git config --global --list
   ```
 
 + 创建ssh公钥
