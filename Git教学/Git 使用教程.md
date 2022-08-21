@@ -83,4 +83,13 @@
   git branch -dr [remote/branch]
   ```
 
-  
+
++ push
+
+  **1.建立联系**
+
+  > 1.git remote add origin github链接
+
+  **2.上传**
+  >1.git push -u origin main
+
