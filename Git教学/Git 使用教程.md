@@ -50,3 +50,37 @@
               doc/*.txt     #会忽略 doc/notes.txt 但不包括doc/server/arcj.txt
               ```
 
++ 创建ssh公钥
+
+  ```
+  1  ssh-kengen -t rsa //会在C:\Users\Administrator\.ssh里面生成两个文件
+  2  打开id_rsa.pub文件
+  ```
+
++ Git分支
+
+  ```
+  #列出本地分支
+  git branch 
+  
+  #列出远程分支
+  git branch -r 
+  
+  #新建分支，但依然停留现在当前分支
+  git branch [branch-name] 
+  
+  #新建分支，并且切换到该分支
+  git checkout -b [branch] 
+  
+  #合并指定分支到当前分支
+  git merge [branch] 
+  
+  #删除分支
+  git branch -b [branch-name] 
+  
+  #删除远程分支
+  git push origin --delete [branch-name]
+  git branch -dr [remote/branch]
+  ```
+
+  
